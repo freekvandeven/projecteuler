@@ -29,7 +29,7 @@ linter:
     always_use_package_imports: false
     avoid_dynamic_calls: true
     avoid_empty_else: true
-    avoid_print: true
+    avoid_print: false
     avoid_relative_lib_imports: true
     avoid_returning_null_for_future: true
     avoid_slow_async_io: true
@@ -104,7 +104,7 @@ linter:
     empty_constructor_bodies: true
     eol_at_end_of_file: true
     exhaustive_cases: true
-    file_names: true
+    file_names: false
     flutter_style_todos: true
     implementation_imports: true
     join_return_with_assignment: true
